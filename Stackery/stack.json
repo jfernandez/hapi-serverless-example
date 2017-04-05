@@ -7,7 +7,9 @@
       "outputs": 1,
       "memorySize": 512,
       "timeout": 30,
+      "runtime": "nodejs",
       "location": "inline",
+      "envVars": {},
       "x": 490,
       "y": 220,
       "wires": [
@@ -17,7 +19,7 @@
     {
       "id": "796f3aba",
       "type": "restApi",
-      "path": "/hapi",
+      "path": "/*",
       "domain": "api.anzabikes.com",
       "x": 290,
       "y": 220,
